@@ -2,6 +2,8 @@
 elementUI el-upload 二次封装组件
 
 ## 使用方式
+使用前请先安装elementUI  
+[elementUI官方](https://element.eleme.cn/#/zh-CN/component/installation)
 例：
 ```
   <imageUpload :disabled="disabled" v-model="imgs" :isShowTip="false" :limit="1" />
